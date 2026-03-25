@@ -1,2 +1,19 @@
 ﻿  Source1.cpp
-  laba 2.vcxproj -> C:\Users\matve\source\repos\laba 2\x64\Debug\laba 2.exe
+C:\Users\matve\source\repos\laba 2\Source1.cpp(25,13): error C2664: "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::ignore(std::streamsize,int)": невозможно преобразовать аргумент 1 из "__int64 (__cdecl *)(void) noexcept" в "std::streamsize"
+      C:\Users\matve\source\repos\laba 2\Source1.cpp(25,48):
+      Не существует контекста, в котором такое преобразование возможно
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(501,39):
+       см. объявление "std::basic_istream<char,std::char_traits<char>>::ignore"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(532,20):
+      может быть "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::ignore(const std::streamsize,const _Elem)"
+          with
+          [
+              _Elem=char
+          ]
+          C:\Users\matve\source\repos\laba 2\Source1.cpp(25,48):
+          инициализация: невозможно преобразовать "__int64 (__cdecl *)(void) noexcept" в "const std::streamsize"
+              C:\Users\matve\source\repos\laba 2\Source1.cpp(25,48):
+              Не существует контекста, в котором такое преобразование возможно
+      C:\Users\matve\source\repos\laba 2\Source1.cpp(25,13):
+      при попытке сопоставить список аргументов "(overloaded-function, char)"
+  

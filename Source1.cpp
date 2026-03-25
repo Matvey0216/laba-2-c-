@@ -19,11 +19,10 @@ float readf()
 int readi()
 {
     int x;
-    while (!(cin >> x) || x <= 0)
+    while (!(cin >> x))
     {
-        cout << "¬ведите >0= ";
         cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.ignore(numeric_limits<streamsize>::max, '\n');
     }
     return x;
 }
